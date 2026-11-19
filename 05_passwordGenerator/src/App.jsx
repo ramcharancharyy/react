@@ -47,7 +47,7 @@ const copyPasswordToClipBoard=useCallback(()=>{
             placeholder="Password"
             readOnly
             ref={passwordRef}
-          />
+          />  
           <button onClick={copyPasswordToClipBoard} className="active:scale-95 transition outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0">
             copy
           </button>
